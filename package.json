@@ -1,0 +1,19 @@
+{
+  "name": "webrtc-glue",
+  "version": "0.0.0",
+  "description": "This is a glue for working with WebRTC connections (without having to use vendor prefixing)",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests/test-*.js"
+  },
+  "keywords": [
+    "webrtc",
+    "glue",
+    "peerconnection"
+  ],
+  "author": "Max Gfeller <max.gfeller@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "tape": "^2.13.3"
+  }
+}
